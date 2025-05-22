@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kitty Gym - Odżywki</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background-color: #ff80ab;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #ffb3c6;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px;
+    }
+    .product {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    }
+    .product img {
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h3 {
+      margin-top: 15px;
+      color: #ff4081;
+    }
+    .product p {
+      font-size: 14px;
+    }
+    .product .price {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .footer {
+      background-color: #ffb3c6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kitty Gym 🐱💪</h1>
+    <p>Najbardziej urocze miejsce z odżywkami dla twardych kotów!</p>
+  </header>
+
+  <nav>
+    <a href="#">Strona główna</a>
+    <a href="#">Produkty</a>
+    <a href="#">Kontakt</a>
+    <a href="#">Koszyk</a>
+  </nav>
+
+  <section class="product-grid">
+    <div class="product">
+      <img src="https://a.allegroimg.com/original/1106c8/e1415d404c83894075771b840eb7/Bialko-whey-odzywka-bialkowa-protein-Red-Support-Iso-2040g-IZOLAT-truskawkahttps://via.placeholder.com/300x200.png?text=Protein+Kotek" alt="Protein Kotek">
+      <h3>Protein Kotek 900g</h3>
+      <p>Pyszna truskawkowa odżywka białkowa dla każdego miłośnika siłowni i kotków.</p>
+      <div class="price">79,99 zł</div>
+    </div>
+
+    <div class="product">
+      <img src="https://a.allegroimg.com/s512/1127f2/9541eb0546c288028938477c9eb6/OstroVit-Creatine-Monohydrate-300-g-KREATYNA-MONOHYDRAT-CZYSTA-Naturalnahttps://via.placeholder.com/300x200.png?text=Creatine+Meow" alt="Creatine Meow">
+      <h3>Creatine Meow 300g</h3>
+      <p>Czysta kreatyna monohydrat – miau-ksymalna moc w każdej porcji!</p>
+      <div class="price">49,99 zł</div>
+    </div>
+
+    <div class="product">
+      <img src="https://runosklep.pl/wp-content/uploads/2022/11/L-taurine_tauryna_aliness_800mg.pnghttps://via.placeholder.com/300x200.png?text=BCAA+Słodki+Mięsień" alt="BCAA">
+      <h3>BCAA Słodki Mięsień</h3>
+      <p>Wsparcie regeneracji w formie smacznych wiśniowych aminokwasów.</p>
+      <div class="price">59,99 zł</div>
+    </div>
+  </section>
+
+  <div class="footer">
+    &copy; 2025 Kitty Gym. Wszystkie prawa zastrzeżone.
+  </div>
+
+</body>
+</html>
